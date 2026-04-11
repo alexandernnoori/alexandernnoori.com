@@ -23,8 +23,8 @@ jobs:
         with:
           version: "stable"
 
-      - name: Install Pollen
-        run: raco pkg install --auto pollen
+      - name: Install Pollen and dependencies
+        run: raco pkg install --auto pollen hyphenate
 
       - name: Build site
         run: raco pollen render && raco pollen publish . _site
