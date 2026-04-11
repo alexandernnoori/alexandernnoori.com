@@ -1,33 +1,5 @@
-name: Build and Deploy
-
-on:
-  push:
-    branches: [main]
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Cache Racket packages
-        uses: actions/cache@v4
-        with:
-          path: ~/.racket
-          key: ${{ runner.os }}-racket-pollen-v1
-
-      - name: Install Racket
-        uses: Bogdanp/setup-racket@v1.11
-        with:
-          version: "stable"
-
-      - name: Install Pollen and dependencies
-        run: raco pkg install --auto pollen hyphenate
-
-      - name: Build site
-        run: raco pollen render && raco pollen publish . _site
+- name: Build site
+        run: raco pollen render && raco pollen publish . /tmp/alexandernnoori-site
 
       - name: Set up SSH
         run: |
@@ -40,5 +12,5 @@ jobs:
         run: |
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/deploy_key" \
-            _site/ \
+            /tmp/alexandernnoori-site/ \
             ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/
