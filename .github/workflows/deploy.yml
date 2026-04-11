@@ -19,8 +19,26 @@ jobs:
           key: ${{ runner.os }}-racket-pollen-v1
 
       - name: Install Racket
-        uses: Bogdanp/setup-racket@v1.11
+        uses: Bogdanp/setup-racket@v1.12
         with:
           version: "stable"
 
+      - name: Install Pollen and dependencies
+        run: raco pkg install --auto pollen hyphenate
 
+      - name: Build site
+        run: raco pollen render && raco pollen publish . /tmp/alexandernnoori-site
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy with rsync
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/deploy_key" \
+            /tmp/alexandernnoori-site/ \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/
