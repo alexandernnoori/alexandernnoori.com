@@ -1,0 +1,369 @@
+/* === Equity (body text family) === */
+@font-face {
+    font-family: equity-text;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/equity-text-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: equity-text;
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/equity-text-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: equity-text;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/equity-text-bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: equity-text;
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/equity-text-bold-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: equity-caps;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/equity-caps-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: equity-caps;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/equity-caps-bold.woff2') format('woff2');
+}
+
+/* === Century Supra === */
+@font-face {
+    font-family: century-supra-text;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/century-supra-text-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: century-supra-text;
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/century-supra-text-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: century-supra-text;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/century-supra-text-bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: century-supra-text;
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/century-supra-text-bold-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: century-supra-caps;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/century-supra-caps-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: century-supra-caps;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/century-supra-caps-bold.woff2') format('woff2');
+}
+
+/* === Concourse (body text, used by font switcher) === */
+@font-face {
+    font-family: concourse-text;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-text-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: concourse-text;
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-text-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: concourse-text;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-text-bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: concourse-text;
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-text-bold-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: concourse-caps;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-caps-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: concourse-caps;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-caps-bold.woff2') format('woff2');
+}
+
+/* === Concourse T2 (light weight, used for example-text) === */
+@font-face {
+    font-family: concourse-t2;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-t2-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: concourse-t2;
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-t2-italic.woff2') format('woff2');
+}
+
+/* === Concourse T3 (medium weight, primary utility sans) === */
+@font-face {
+    font-family: concourse-t3;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-t3-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: concourse-t3;
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-t3-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: concourse-t3;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-t3-bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: concourse-t3;
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-t3-bold-italic.woff2') format('woff2');
+}
+
+/* === Concourse T3 Index (list numbers and bullets) === */
+@font-face {
+    font-family: concourse-t3-index;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-t3-index-regular.woff2') format('woff2');
+}
+
+/* === Concourse C4 (caps variant, used for table headers / captions) === */
+@font-face {
+    font-family: concourse-c4;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-c4-regular.woff2') format('woff2');
+}
+
+/* === Concourse T7 (heavy weight) === */
+@font-face {
+    font-family: concourse-t7;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-t7-regular.woff2') format('woff2');
+}
+
+/* === Concourse T8 (heaviest weight) === */
+@font-face {
+    font-family: concourse-t8;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/concourse-t8-regular.woff2') format('woff2');
+}
+
+/* === Heliotrope (body text, used by font switcher) === */
+/* Likely Heliotrope 4 */
+@font-face {
+    font-family: heliotrope-text;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-text-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: heliotrope-text;
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-text-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: heliotrope-text;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-text-bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: heliotrope-text;
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-text-bold-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: heliotrope-caps;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-caps-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: heliotrope-caps;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-caps-bold.woff2') format('woff2');
+}
+
+/* === Heliotrope T3 (lighter weight, asides/instructions/UI) === */
+@font-face {
+    font-family: heliotrope-t3;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-t3-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: heliotrope-t3;
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-t3-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: heliotrope-t3;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-t3-bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: heliotrope-t3;
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-t3-bold-italic.woff2') format('woff2');
+}
+
+/* === Heliotrope C6 (caps, used for run-in labels) === */
+@font-face {
+    font-family: heliotrope-c6;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-c6-regular.woff2') format('woff2');
+}
+
+/* === Heliotrope T8 (heaviest weight, used for Q&A text) === */
+@font-face {
+    font-family: heliotrope-t8;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/heliotrope-t8-regular.woff2') format('woff2');
+}
+
+/* === Advocate (display/headline font) === */
+@font-face {
+    font-family: advocate-c41;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/advocate_14_cond_reg.woff2') format('woff2');
+}
+@font-face {
+    font-family: advocate-c53;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/advocate_55_wide_med.woff2') format('woff2');
+}
+
+/* === Triplicate (base, used in chron/blog and forms) === */
+@font-face {
+    font-family: triplicate;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/triplicate-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: triplicate;
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/triplicate-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: triplicate;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('/fonts/woff2/triplicate-bold.woff2') format('woff2');
+}
+
+/* === Triplicate Code (inline code elements) === */
+@font-face {
+    font-family: triplicate-code;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/triplicate-code-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: advocate-c43;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/advocate_15_cond_med.woff2') format('woff2');
+}
+@font-face {
+    font-family: advocate-c63;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/woff2/advocate_56_wide_bold.woff2') format('woff2');
+}
