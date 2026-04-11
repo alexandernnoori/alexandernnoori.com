@@ -1,16 +1,24 @@
-- name: Build site
-        run: raco pollen render && raco pollen publish . /tmp/alexandernnoori-site
+name: Build and Deploy
 
-      - name: Set up SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+on:
+  push:
+    branches: [main]
 
-      - name: Deploy with rsync
-        run: |
-          rsync -avz --delete \
-            -e "ssh -i ~/.ssh/deploy_key" \
-            /tmp/alexandernnoori-site/ \
-            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Cache Racket packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.racket
+          key: ${{ runner.os }}-racket-pollen-v1
+
+      - name: Install Racket
+        uses: Bogdanp/setup-racket@v1.11
+        with:
+          version: "stable"
