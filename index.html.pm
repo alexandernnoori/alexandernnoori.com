@@ -11,7 +11,7 @@
 ◊sig{—Charles Goodsell, ◊book{Mission Mystique}*}
 
 ◊aside{*Credit for this quote goes to ◊link["https://danhonig.info" "Dan Honig,"] who also features it on his website. It captures the human element of governance that has long motivated my work.}
-I am a first-year Ph.D. student and Ashford Fellow in the Department of Government and Social Policy at ◊link["https://www.gov.harvard.edu/people/graduate-students/" "Harvard University."] I am also an affiliate of the ◊link["https://caps.gov.harvard.edu/directory/julian-perry/?cp-dir-id=2303" "Center for American Political Studies."] Before graduate school, I worked as a Special Assistant for immigration policy on the Senate Judiciary Committee, as a federal law clerk, and as an appellate staff attorney at the Department of Justice’s Civil Division. 
+I am a first-year Ph.D. student and Ashford Fellow in the Department of Government and Social Policy at ◊link["https://www.gov.harvard.edu/people/graduate-students/" "Harvard University."] I am also an affiliate of the ◊link["https://caps.gov.harvard.edu/" "Center for American Political Studies."] Before graduate school, I worked as a Special Assistant for immigration policy on the Senate Judiciary Committee, as a federal law clerk, and as an appellate staff attorney at the Department of Justice’s Civil Division. 
 
 My research centers on the bureaucacy, the administrative state, and Congress. For more information, see ◊xref["research.html" "Research"].
 
