@@ -5,7 +5,7 @@
 
 ◊small-topic{Alexander Nabavi-Noori}
 
-◊image-aside["images/Xander_BW.jpg"]
+◊image-aside["images/Xander_Color.jpg"]
 
 ◊indented-justified{If we look at government agencies around us that stand out as ‘best,’ we will find they consist of cohesive groups of women and men who are ‘turned on’ by something. But by what? Not their paychecks, nor the latest reform gimmicks, but by the very work they are doing: stopping child abuse, fighting forest fires, battling epidemics.}
 ◊sig{—Charles Goodsell, ◊book{Mission Mystique}*}
