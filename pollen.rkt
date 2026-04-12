@@ -37,10 +37,10 @@
 
 (define switcher-links
   '(("index.html"    "About")
-    ("/research.html" "Research")
-    ("/experience.html" "Experience")
-    ("/blog.html"     "Blog")
-    ("/contact.html"  "Contact")
+    ("research.html" "Research")
+    ("experience.html" "Experience")
+    ("blog.html"     "Blog")
+    ("contact.html"  "Contact")
     ("/ANabaviNoori_CV.pdf"       "CV")))
 
 ;; Render the switcher as an HTML string (for direct interpolation in a
