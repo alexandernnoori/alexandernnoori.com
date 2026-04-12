@@ -84,8 +84,9 @@
          no-hyphens
          shortcut-table
          btw
-         ;; Chron (blog) helpers
-         chron-subhead update-block)
+         blockquote
+         justified
+         indented-justified)
 
 ;; title-block — replaces the old `hanging-topic`. Same visual placement
 ;; (left-column hanging label) but emits the new semantic markup:
@@ -238,6 +239,14 @@
 (define (indented . elements)
   `(div ((class "indented")) ,@elements))
 
+;; justified — wraps content in a div with justified text alignment.
+(define (justified . elements)
+  `(div ((class "justified")) ,@elements))
+
+;; indented-justified — indented block with justified text alignment.
+(define (indented-justified . elements)
+  `(div ((class "indented-justified")) ,@elements))
+
 ;; blockquote — blockquote with background styling.
 (define (blockquote . elements)
   `(blockquote ,@elements))
@@ -353,19 +362,3 @@
   `(div ((class "btw"))
         (div ((class "btw-title")) "by the way")
         ,inner-ul))
-
-;; =========================================================================
-;; Chron (blog) tag functions
-;; =========================================================================
-
-;; chron-subhead — h2 subheading with id and anchor, as used in blog posts.
-;; Usage: ◊chron-subhead["ps-possible-uses"]{PS—possible uses for AI}
-(define (chron-subhead id . elements)
-  `(h2 ((id ,id))
-       (a ((class "subhead") (href ,(string-append "#" id))) ,@elements)))
-
-;; update-block — trailing update section with a top border.
-;; Usage: ◊update-block{◊chron-subhead["update-495-days"]{update, 495 days later}
-;;          Content paragraphs...}
-(define (update-block . elements)
-  `(div ((class "update")) ,@elements))

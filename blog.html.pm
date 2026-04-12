@@ -29,7 +29,7 @@
             (span ((class "blog-entry-date"))
                   (time ((datetime ,pg-datetime)) ,pg-date)))))
 
-◊commentary-topic{Et Cetera}
+◊commentary-topic{Blog — Et Cetera}
 
 ◊(define blog-entries (pagetree->list blog-ptree))
 

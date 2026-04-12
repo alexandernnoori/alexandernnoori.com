@@ -238,6 +238,7 @@ sig {
     margin-right: 0.5rem;
 }
 
+.no-hyphens { hyphens: none; }
 
 
 
@@ -403,6 +404,18 @@ div.updateblock {
     border-top: 1px solid #444;
     margin-left: -2em;
     margin-right: 4em;
+}
+
+/* Justified text alignment */
+.justified p, .justified { text-align: justify; }
+
+/* Indented block with justified text alignment */
+.indented-justified {
+    text-align: justify;
+    margin-left: 2.5rem;
+    margin-bottom: 1em;
+    line-height: 1.35;
+    display: block;
 }
 
 .indented,

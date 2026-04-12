@@ -5,31 +5,32 @@
 
 ◊small-title-block[(title-from-metas metas)]
 
+Before beginning my doctoral work, I spent several years practicing law in and around the federal government — clerking for two federal judges, working as an appellate attorney at the Department of Justice, and advising on immigration policy in the Senate. That experience left me with a granular sense of how federal institutions actually operate, and a set of questions about bureaucratic behavior and administrative power that I couldn't fully answer from inside the practice of law.
+
 ◊subhead["professional"]{Professional}
 
-◊in-century-supra-caps{O’Melveny & Myers LLP,} New York, NY
-◊indented{Associate, Supreme Court & Appellate Litigation, 2025–2026}
+◊aside{2025–2026}
+Associate, ◊in-century-supra-caps{O’Melveny & Myers LLP,} New York, NY
 
-◊in-century-supra-caps{U.S. Department of Justice, Civil Division}
-◊indented{Appellate Staff Attorney , 2024–2025}
+◊aside{2024–2025}
+Appellate Staff Attorney, ◊in-century-supra-caps{U.S. Department of Justice, Civil Division}
 
-◊in-century-supra-caps{U.S. Court of Appeals for the D.C. Circuit}
-◊indented{Law Clerk to Judge Cornelia T.L. Pillard, 2023–2024}
+◊aside{2023–2024}
+Law Clerk to Judge Cornelia T.L. Pillard, ◊in-century-supra-caps{U.S. Court of Appeals for the D.C. Circuit}
 
-◊in-century-supra-caps{U.S. District Court for the District of Columbia}
-◊indented{Law Clerk to Chief Judge James E. Boasberg, 2022–2023}
+◊aside{2022–2023}
+Law Clerk to Chief Judge James E. Boasberg, ◊in-century-supra-caps{U.S. District Court for the District of Columbia}
 
-◊in-century-supra-caps{U.S. Senate Judiciary Committee}
-◊indented{Special Assistant and Yale Law School Heyman Fellow to Sen. Blumenthal, 2021–2022}
+◊aside{2021–2022}
+Special Assistant and Yale Law School Heyman Fellow to Sen. Blumenthal, ◊in-century-supra-caps{U.S. Senate Judiciary Committee}
 
-◊in-century-supra-caps{Jenner & Block LLP}
-◊indented{Summer Associate, Summer 2020}
+◊aside{Summer 2020}
+Summer Associate, ◊in-century-supra-caps{Jenner & Block LLP}
 
-◊in-century-supra-caps{U.S. Department of Justice, Civil Division}
-◊indented{Appellate Staff Intern , Summer 2019}
+◊aside{Summer 2019}
+Appellate Staff Intern, ◊in-century-supra-caps{U.S. Department of Justice, Civil Division}
 
 ◊subhead["teaching"]{Teaching}
 
-◊in-century-supra-caps{PLSC 233: Constitutional Law (Fall 2019)}
-◊indented{Teaching Fellow, Yale College}
-◊indented{Instructor: Akhil Reed Amar}
+◊aside{Fall 2019}
+Teaching Fellow, ◊in-century-supra-caps{PLSC 233: Constitutional Law}, ◊no-hyphens{Yale College}
