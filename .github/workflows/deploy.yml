@@ -27,7 +27,7 @@ jobs:
         run: raco pkg install --auto pollen hyphenate
 
       - name: Build site
-        run: raco pollen render && raco pollen publish . /tmp/alexandernnoori-site
+        run: raco pollen render --force && raco pollen publish . /tmp/alexandernnoori-site
 
       - name: Set up SSH
         run: |
