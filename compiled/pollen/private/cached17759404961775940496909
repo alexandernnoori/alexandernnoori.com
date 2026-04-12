@@ -1,1 +1,0 @@
-((3) 0 () 0 () () (h - () (metas h - () (title . "Blog") (here-path . "/Users/xander/Documents/Website Development/alexandernnoori.com-pollen/blog.html.pm")) (doc c div c (q (id "doc")) c (c p c (c topic c (q (class "commentary")) c (u . "Et Cetera"))) c (c p c (u . "Noth\u00ADing here yet!")))))

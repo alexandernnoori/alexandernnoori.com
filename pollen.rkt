@@ -36,7 +36,7 @@
 (provide switcher-links render-switcher)
 
 (define switcher-links
-  '(("/index.html"    "About")
+  '(("index.html"    "About")
     ("/research.html" "Research")
     ("/experience.html" "Experience")
     ("/blog.html"     "Blog")

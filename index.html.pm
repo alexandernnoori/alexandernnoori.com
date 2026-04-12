@@ -16,6 +16,6 @@ My research centers on the bureaucacy, the administrative state, and Congress. F
 
 I received my law degree from Yale Law School, where I was the Editor-in-Chief of the ◊book{Yale Law Journal.} I received my bachelor’s degree in political science with a double major in economics from the University of California, Los Angeles.
 
-I am always interested in hearing from students, scholars, practitioners, and anyone else who shares my interests or has others that may be relevant. Please feel free to reach out via email or social media. For more information, see ◊xref["contact.html" "Contact."]
-
 ◊aside{◊p[#:id "quote-acknowledgment"]{Credit for this quote goes to ◊link["https://danhonig.info" "Dan Honig,"] who also features it on his website. It captures the human element of governance that has long motivated my work.}}
+
+I am always interested in hearing from students, scholars, practitioners, and anyone else who shares my interests or has others that may be relevant. Please feel free to reach out via email or social media. For more information, see ◊xref["contact.html" "Contact."]
