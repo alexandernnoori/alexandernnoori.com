@@ -6,6 +6,7 @@
     font-display: swap;
     src: url('/fonts/woff2/equity-text-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: equity-text;
     font-style: italic;
@@ -13,6 +14,7 @@
     font-display: swap;
     src: url('/fonts/woff2/equity-text-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: equity-text;
     font-style: normal;
@@ -20,6 +22,7 @@
     font-display: swap;
     src: url('/fonts/woff2/equity-text-bold.woff2') format('woff2');
 }
+
 @font-face {
     font-family: equity-text;
     font-style: italic;
@@ -27,6 +30,7 @@
     font-display: swap;
     src: url('/fonts/woff2/equity-text-bold-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: equity-caps;
     font-style: normal;
@@ -34,6 +38,7 @@
     font-display: swap;
     src: url('/fonts/woff2/equity-caps-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: equity-caps;
     font-style: normal;
@@ -50,6 +55,7 @@
     font-display: swap;
     src: url('/fonts/woff2/century-supra-text-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: century-supra-text;
     font-style: italic;
@@ -57,6 +63,7 @@
     font-display: swap;
     src: url('/fonts/woff2/century-supra-text-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: century-supra-text;
     font-style: normal;
@@ -64,6 +71,7 @@
     font-display: swap;
     src: url('/fonts/woff2/century-supra-text-bold.woff2') format('woff2');
 }
+
 @font-face {
     font-family: century-supra-text;
     font-style: italic;
@@ -71,6 +79,7 @@
     font-display: swap;
     src: url('/fonts/woff2/century-supra-text-bold-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: century-supra-caps;
     font-style: normal;
@@ -78,6 +87,7 @@
     font-display: swap;
     src: url('/fonts/woff2/century-supra-caps-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: century-supra-caps;
     font-style: normal;
@@ -94,6 +104,7 @@
     font-display: swap;
     src: url('/fonts/woff2/concourse-text-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: concourse-text;
     font-style: italic;
@@ -101,6 +112,7 @@
     font-display: swap;
     src: url('/fonts/woff2/concourse-text-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: concourse-text;
     font-style: normal;
@@ -108,6 +120,7 @@
     font-display: swap;
     src: url('/fonts/woff2/concourse-text-bold.woff2') format('woff2');
 }
+
 @font-face {
     font-family: concourse-text;
     font-style: italic;
@@ -115,6 +128,7 @@
     font-display: swap;
     src: url('/fonts/woff2/concourse-text-bold-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: concourse-caps;
     font-style: normal;
@@ -122,6 +136,7 @@
     font-display: swap;
     src: url('/fonts/woff2/concourse-caps-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: concourse-caps;
     font-style: normal;
@@ -138,6 +153,7 @@
     font-display: swap;
     src: url('/fonts/woff2/concourse-t2-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: concourse-t2;
     font-style: italic;
@@ -154,6 +170,7 @@
     font-display: swap;
     src: url('/fonts/woff2/concourse-t3-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: concourse-t3;
     font-style: italic;
@@ -161,6 +178,7 @@
     font-display: swap;
     src: url('/fonts/woff2/concourse-t3-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: concourse-t3;
     font-style: normal;
@@ -168,6 +186,7 @@
     font-display: swap;
     src: url('/fonts/woff2/concourse-t3-bold.woff2') format('woff2');
 }
+
 @font-face {
     font-family: concourse-t3;
     font-style: italic;
@@ -221,6 +240,7 @@
     font-display: swap;
     src: url('/fonts/woff2/heliotrope-text-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: heliotrope-text;
     font-style: italic;
@@ -228,6 +248,7 @@
     font-display: swap;
     src: url('/fonts/woff2/heliotrope-text-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: heliotrope-text;
     font-style: normal;
@@ -235,6 +256,7 @@
     font-display: swap;
     src: url('/fonts/woff2/heliotrope-text-bold.woff2') format('woff2');
 }
+
 @font-face {
     font-family: heliotrope-text;
     font-style: italic;
@@ -242,6 +264,7 @@
     font-display: swap;
     src: url('/fonts/woff2/heliotrope-text-bold-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: heliotrope-caps;
     font-style: normal;
@@ -249,6 +272,7 @@
     font-display: swap;
     src: url('/fonts/woff2/heliotrope-caps-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: heliotrope-caps;
     font-style: normal;
@@ -265,6 +289,7 @@
     font-display: swap;
     src: url('/fonts/woff2/heliotrope-t3-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: heliotrope-t3;
     font-style: italic;
@@ -272,6 +297,7 @@
     font-display: swap;
     src: url('/fonts/woff2/heliotrope-t3-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: heliotrope-t3;
     font-style: normal;
@@ -279,6 +305,7 @@
     font-display: swap;
     src: url('/fonts/woff2/heliotrope-t3-bold.woff2') format('woff2');
 }
+
 @font-face {
     font-family: heliotrope-t3;
     font-style: italic;
@@ -313,6 +340,7 @@
     font-display: swap;
     src: url('/fonts/woff2/advocate_14_cond_reg.woff2') format('woff2');
 }
+
 @font-face {
     font-family: advocate-c53;
     font-style: normal;
@@ -329,6 +357,7 @@
     font-display: swap;
     src: url('/fonts/woff2/triplicate-regular.woff2') format('woff2');
 }
+
 @font-face {
     font-family: triplicate;
     font-style: italic;
@@ -336,6 +365,7 @@
     font-display: swap;
     src: url('/fonts/woff2/triplicate-italic.woff2') format('woff2');
 }
+
 @font-face {
     font-family: triplicate;
     font-style: normal;
@@ -360,6 +390,7 @@
     font-display: swap;
     src: url('/fonts/woff2/advocate_15_cond_med.woff2') format('woff2');
 }
+
 @font-face {
     font-family: advocate-c63;
     font-style: normal;

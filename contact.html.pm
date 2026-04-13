@@ -6,7 +6,7 @@
 ◊small-title-block[(title-from-metas metas)]{}
 
 ◊subhead["email"]{Email}
-◊in-triplicate-code{◊link["mailto:" "alexander.nnoori@gmail.com"]}
+◊in-triplicate-code{◊link["mailto:xandernabavinoori@fas.harvard.edu" "xandernabavinoori@fas.harvard.edu"]}
 
 ◊subhead["scholarship"]{academic & professional links}
 ◊link["https://alexandernnoori.com/ANabaviNoori_CV.pdf" "Curriculum Vitae"]
