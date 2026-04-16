@@ -11,7 +11,7 @@
 ◊in-triplicate-code{Cambridge, MA. 02138}
 
 ◊subhead["email"]{Email}
-◊in-triplicate-code{◊link["mailto:xandernabavinoori@fas.harvard.edu" "xandernabavinoori@fas.harvard.edu"] 0123456}
+◊in-triplicate-code{◊link["mailto:xandernabavinoori@fas.harvard.edu" "xandernabavinoori@fas.harvard.edu"]}
 
 ◊subhead["calendly"]{Schedule a meeting}
 Office hours appointments can be scheduled via my ◊link["https://calendly.com/alexander-nnoori/30min" "Calendly"]
