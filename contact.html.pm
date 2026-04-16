@@ -5,8 +5,16 @@
 
 ◊small-title-block[(title-from-metas metas)]{}
 
+◊subhead["office"]{Office}
+◊in-triplicate-code{1737 Cambridge Street}
+◊in-triplicate-code{CGIS Knafel, Office K___}
+◊in-triplicate-code{Cambridge, MA. 02138}
+
 ◊subhead["email"]{Email}
-◊in-triplicate-code{◊link["mailto:xandernabavinoori@fas.harvard.edu" "xandernabavinoori@fas.harvard.edu"]}
+◊in-triplicate-code{◊link["mailto:xandernabavinoori@fas.harvard.edu" "xandernabavinoori@fas.harvard.edu"] 0123456}
+
+◊subhead["calendly"]{Schedule a meeting}
+Office hours appointments can be scheduled via my ◊link["https://calendly.com/alexander-nnoori/30min" "Calendly"]
 
 ◊subhead["scholarship"]{academic & professional links}
 ◊link["https://alexandernnoori.com/ANabaviNoori_CV.pdf" "Curriculum Vitae"]
