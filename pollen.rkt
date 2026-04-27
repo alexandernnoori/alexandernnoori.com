@@ -86,7 +86,8 @@
          btw
          blockquote
          justified
-         indented-justified)
+         indented-justified
+         indented-justified-small)
 
 ;; title-block — replaces the old `hanging-topic`. Same visual placement
 ;; (left-column hanging label) but emits the new semantic markup:
@@ -246,6 +247,10 @@
 ;; indented-justified — indented block with justified text alignment.
 (define (indented-justified . elements)
   `(div ((class "indented-justified")) ,@elements))
+
+;; indented-justified-small — indented block with justified text alignment and smaller font (good for initial blockquotes).
+(define (indented-justified-small . elements)
+  `(div ((class "indented-justified-small")) ,@elements))
 
 ;; blockquote — blockquote with background styling.
 (define (blockquote . elements)

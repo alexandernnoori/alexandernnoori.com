@@ -3,18 +3,18 @@ div#doc {
 }
 
 html {
-    font-size: 2.4vw;
+    font-size: 22px;
 }
 
 @media all and (min-width:1000px) {
     html {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
 
 @media all and (max-width:520px) {
     html {
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 
@@ -313,7 +313,7 @@ aside {
     font-variant-numeric: normal;
 }
 
-@media all and (min-width:1200px) {
+@media all and (min-width:1000px) {
     aside {
         left: 0;
         width: calc(2.5rem * 4);
@@ -416,6 +416,15 @@ div.updateblock {
     margin-bottom: 1em;
     line-height: 1.35;
     display: block;
+}
+
+.indented-justified-small {
+    text-align: justify;
+    margin-left: 2.5rem;
+    margin-bottom: 1em;
+    line-height: 1.35;
+    display: block;
+    font-size: 85%;
 }
 
 .indented,

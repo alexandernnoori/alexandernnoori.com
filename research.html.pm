@@ -5,6 +5,10 @@
 
 ◊small-title-block[(title-from-metas metas)]
 
+My work sits within the American Political Development tradition, combining insights from administrative law and organizational theory with historical-institutional methods to study how the American administrative state has been built, contested, and reshaped over the long run. 
+
+I am also interested in how public institutions operate in practice today, especially how internal cultures, professional norms, and organizational routines shape governance in ways that legal doctrine often obscures.
+
 ◊subhead["research"]{Academic Publications}
 
 ◊link["https://yalelawjournal.org/index.php/article/agency-control-and-internally-binding-norms" ◊book{Agency Control and Internally Binding Norms}] 

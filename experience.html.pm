@@ -5,7 +5,7 @@
 
 ◊small-title-block[(title-from-metas metas)]
 
-Before beginning my doctoral work, I spent several years practicing law in and around the federal government — clerking for two federal judges, working as an appellate attorney at the Department of Justice, and advising on immigration policy in the Senate. That experience left me with a granular sense of how federal institutions actually operate, and a set of questions about bureaucratic behavior and administrative power that I couldn't fully answer from inside the practice of law.
+Before beginning my doctoral work, I spent several years practicing law in and around the federal government — clerking for two federal judges, working as an appellate attorney at the Department of Justice, and advising on immigration policy in the Senate. That experience gave me a granular sense of how federal institutions actually operate, while also sharpening a set of questions about bureaucratic behavior and administrative power that I wanted to pursue with the tools of social science.
 
 ◊subhead["professional"]{Professional}
 
