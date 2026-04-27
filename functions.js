@@ -18,7 +18,7 @@ const reveal_bottom_nav = function () {
   const toolbar = get_toolbar();
   if (!toolbar) return;
   const y_remaining = max_scroll_height() - (window.scrollY + window.innerHeight);
-  const invisible_threshold = body.clientWidth * .175;
+  const invisible_threshold = body.clientWidth * .35;
   const visible_threshold = body.clientWidth * .100;
   const new_opacity =
     y_remaining >= invisible_threshold ? 0
@@ -39,3 +39,4 @@ window.addEventListener("load", event => {
 
 window.addEventListener("resize", reveal_bottom_nav);
 window.addEventListener("scroll", reveal_bottom_nav);
+window.addEventListener("load", reveal_bottom_nav);
